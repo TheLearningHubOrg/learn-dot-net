@@ -128,3 +128,31 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ---- .NET ----
+# .NET
+bin/
+obj/
+*.user
+*.suo
+TestResults/
+.vs/
+
+# Editors and OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# SQLite files created by the starter
+*.db
+*.db-shm
+*.db-wal

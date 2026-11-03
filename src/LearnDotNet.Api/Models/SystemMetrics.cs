@@ -6,5 +6,4 @@ public record SystemMetrics(
     string OsPlatform,
     int ProcessorCount,
     long WorkingSetBytes,
-    DateTime TimestampUtc
-);
+    DateTimeOffset TimestampUtc);

@@ -1,0 +1,11 @@
+.git
+.github
+**/bin
+**/obj
+**/TestResults
+**/*.db
+**/node_modules
+*.md
+!README.md
+Dockerfile
+.dockerignore
